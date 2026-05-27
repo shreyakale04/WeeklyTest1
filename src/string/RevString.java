@@ -6,6 +6,7 @@ public class RevString {
 	
 		String str = "Shreya";
 		String rev = "";
+		
 //		char secondChar = str.charAt(str.length() - 2);
 	
 //		System.out.println(secondChar);
