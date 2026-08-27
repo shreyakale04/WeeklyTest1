@@ -22,9 +22,16 @@ public class LinearSearch2 {
 		int[]arr = {10, 8, 30};
 		int target = 6;
 		
-		int index = ls.Search(arr, target);
+		int result = ls.Search(arr, target);
 		
-		System.out.println(index);
+		if(result == -1){
+			
+			System.out.println("Element is not present in array");
+			
+		}else{
+			System.out.println("Element is present at index "
+                    + result);
+		}
 	}
 
 }

@@ -19,9 +19,18 @@ public class LinearSearch {
 			int[]arr = {1, 2, 3, 4};
 			int target = 3;
 			
-			int index = search(arr, target);
+			int result = search(arr, target);
 			
-			System.out.println(index);
+			if(result == -1){
+				
+				System.out.println("Element is not present in array");
+				
+			}else{
+				System.out.println("Element is present at index "
+                        + result);
+			}
+			
+			
 		}
 	}
 
