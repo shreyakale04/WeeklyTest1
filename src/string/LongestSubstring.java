@@ -7,8 +7,10 @@ public class LongestSubstring {
 	
 	public int lengthOfLongestSubString(String s){
 	
+		//Set use for Unique characters	
 	Set<Character>set = new HashSet<>();
 	
+        //Sliding window	
 		int left = 0;
 		int maxLength = 0;
 		
