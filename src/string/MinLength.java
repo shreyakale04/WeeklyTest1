@@ -69,8 +69,6 @@ public class MinLength {
                 : name.substring(start, start + minLength);
     
 		
-		
-		
 	}
 	
 	public static void main(String[] args) {
